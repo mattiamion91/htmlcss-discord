@@ -6,7 +6,7 @@
 
 /*utility*/
 
-h1 {
+.top-p {
     padding-top: 130px;
 }
 
@@ -18,8 +18,10 @@ p {
     font-size: 50px;
 
 }
+
 .fs2 {
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .wht {
@@ -38,9 +40,15 @@ a {
     padding: 10px 10px;
 }
 
-.fk-btn2
-{
+.fk-btn2 {
     background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 10px;
+}
+
+.fk-btn3 {
+    background-color: rgb(114, 137, 218);
     border-radius: 25px;
     color: white;
     padding: 10px 10px;
@@ -62,7 +70,7 @@ body {
 }
 
 .grey {
-    background-color: lightgray
+    background-color: rgb(246, 246, 246)
 }
 
 .white {
@@ -136,7 +144,7 @@ ul li {
 }
 
 .btn-container {
-    padding-top: 25px;
+    padding: 25px 250px;
     display: flex;
     justify-content: space-around;
 }
@@ -147,30 +155,37 @@ ul li {
     padding: 20px 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .section-content-blu {
-    background-color: skyblue;
+    /*background-color: skyblue;*/
     flex-basis: 60%;
-    height: 300px;
+    min-height: 300px;
 }
 
 .section-content-pink {
-    background-color: pink;
+    /*background-color: pink;*/
     flex-basis: 40%;
-    height: 300px;
+    min-height: 300px;
 }
 
 /*green section*/
 
 .green-section-container {
     padding: 30px 200px;
+    text-align: center;
 }
 
 .green-section-contain {
-    height: 500px;
-    background-color: green;
+    min-height: 500px;
+    /*background-color: green;*/
+}
+
+.bg-stars {
+    background-image: url(../imgs/stars.svg);
+    padding-top: 30px;
+    background-size: contain;
 }
 
 /*footer*/
