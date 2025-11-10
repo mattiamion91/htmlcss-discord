@@ -6,13 +6,55 @@
 
 /*utility*/
 
-a {
-  text-decoration: none;
+h1 {
+    padding-top: 130px;
 }
 
+p {
+    padding-top: 40px;
+}
+
+.fs1 {
+    font-size: 50px;
+
+}
+.fs2 {
+    font-size: 24px;
+}
+
+.wht {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fk-btn {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 10px 10px;
+}
+
+.fk-btn2
+{
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 10px;
+}
+
+body {
+    font-family: 'gg sans', sans-serif;
+    font-family: 'gg sans Normal', sans-serif;
+    font-family: 'gg sans Medium', sans-serif;
+    font-family: 'gg sans SemiBold', sans-serif;
+}
 
 .bg-footer {
-background-color: rgb(35, 39, 42);
+    background-color: rgb(35, 39, 42);
 }
 
 .bt-bg {
@@ -33,9 +75,11 @@ background-color: rgb(35, 39, 42);
 
 ul li {
     list-style-type: none;
+    margin: 0 25px;
     display: inline;
 }
 
+/*
 .border {
     border: 2px dotted black
 }
@@ -43,12 +87,12 @@ ul li {
 .border2 {
     border: 2px dotted white
 }
-
+*/
 
 /*navbar*/
 
 .navbar-container {
-    background-color: rgb(173, 216, 230);
+    background-color: rgb(37, 94, 233);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -56,36 +100,45 @@ ul li {
 
 }
 
+/*
 .navbar-logo,
 .navbar-links,
 .navbar-login {
     background-color: orange;
 }
+*/
 
+/*
 .navbar-logo,
 .navbar-login {
-    height: 25px;
+    min-height: 25px;
     flex-basis: calc((100% /12)*2)
 }
+*/
 
 .navbar-links {
     flex-grow: 1;
     text-align: center;
 }
 
-.navbar-login {
-    text-align: right;
-}
 /*hero-section*/
 
 .hero-section-container {
-    background-color: rgb(0, 0, 139);
+    background-image: url(../imgs/jumbo.png);
+    background-size: cover;
     padding: 30px 300px;
 }
 
 .hero-section-content {
-    height: 250px;
-    background-color: rgb(238, 130, 238);
+    height: 500px;
+    /*background-color: rgb(238, 130, 238);*/
+    text-align: center;
+}
+
+.btn-container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*main-section*/
