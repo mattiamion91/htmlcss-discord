@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utility*/
+
+a {
+  text-decoration: none;
+}
+
+
+.bg-footer {
+background-color: rgb(35, 39, 42);
+}
+
+.bt-bg {
+    background-color: salmon;
+}
+
+.grey {
+    background-color: lightgray
+}
+
+.white {
+    background-color: white;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.border {
+    border: 2px dotted black
+}
+
+.border2 {
+    border: 2px dotted white
+}
+
+
+/*navbar*/
+
+.navbar-container {
+    background-color: rgb(173, 216, 230);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+
+}
+
+.navbar-logo,
+.navbar-links,
+.navbar-login {
+    background-color: orange;
+}
+
+.navbar-logo,
+.navbar-login {
+    height: 25px;
+    flex-basis: calc((100% /12)*2)
+}
+
+.navbar-links {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-login {
+    text-align: right;
+}
+/*hero-section*/
+
+.hero-section-container {
+    background-color: rgb(0, 0, 139);
+    padding: 30px 300px;
+}
+
+.hero-section-content {
+    height: 250px;
+    background-color: rgb(238, 130, 238);
+}
+
+/*main-section*/
+
+.section-container {
+    padding: 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content-blu {
+    background-color: skyblue;
+    flex-basis: 60%;
+    height: 300px;
+}
+
+.section-content-pink {
+    background-color: pink;
+    flex-basis: 40%;
+    height: 300px;
+}
+
+/*green section*/
+
+.green-section-container {
+    padding: 30px 200px;
+}
+
+.green-section-contain {
+    height: 500px;
+    background-color: green;
+}
+
+/*footer*/
+
+.up-section {
+    padding: 5px 200px;
+    display: flex;
+}
+
+.salmon-item {
+    background-color: salmon;
+    height: 400px;
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.green-item {
+    background-color: lightseagreen;
+    height: 400px;
+    flex-basis: calc((100% / 12) * 2);
+    flex-grow: 1;
+}
+
+.down-section {
+    padding: 10px 200px;
+    margin-top: 1px;
+}
+
+.button-item {
+    display: flex;
+    margin: 5px;
+    background-color: lightgreen;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
