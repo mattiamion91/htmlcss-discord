@@ -209,14 +209,15 @@ body {
 /*footer*/
 
 .up-section {
-    padding: 5px 200px;
+    line-height: 40px;
+    padding: 30px 200px;
     display: flex;
-    justify-content: baseline;
 }
 
 .salmon-item {
     /*background-color: salmon;*/
     height: 400px;
+    padding-right: 56px;
     flex-basis: calc((100% / 12) * 4);
 }
 
