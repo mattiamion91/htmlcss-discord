@@ -6,6 +6,13 @@
 
 /*utility*/
 
+ul,
+li {
+    list-style-type: none;
+    min-width: 50px;
+    /*display: inline;*/
+}
+
 header {
     background-color: rgb(37, 94, 233);
     padding: 20px 0;
@@ -33,6 +40,11 @@ p {
 .wht {
     color: white;
 }
+
+.text-lila {
+    color: rgb(114, 137, 218);
+}
+
 
 a {
     text-decoration: none;
@@ -87,7 +99,8 @@ body {
     flex-direction: row-reverse;
 }
 
-ul, li{
+.ul1,
+.li1 {
     list-style-type: none;
     margin: 0 25px;
     display: inline;
@@ -198,6 +211,7 @@ ul, li{
 .up-section {
     padding: 5px 200px;
     display: flex;
+    justify-content: baseline;
 }
 
 .salmon-item {
@@ -224,4 +238,17 @@ ul, li{
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+.mask {
+    -webkit-mask-image: url(../imgs/wave.svg);
+    mask-image: url(../imgs/wave.svg);
+    mask-size: 100px;
+    mask-position: top;
 }
